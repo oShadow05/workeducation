@@ -1,0 +1,363 @@
+
+/* TAGS PROPERTY */
+body
+{
+  font-size: 1.1em;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3c3b3f+0,605c3c+100 */
+background: #3c3b3f; /* Old browsers */
+background: -moz-linear-gradient(left, #3c3b3f 0%, #605c3c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #3c3b3f 0%,#605c3c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #3c3b3f 0%,#605c3c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c3b3f', endColorstr='#605c3c',GradientType=1 ); /* IE6-9 */
+}
+
+html, body
+{
+  min-height: 100%;
+  line-height: 1.5em;
+}
+
+header h1, h2{
+  font-size: 3em;
+}
+
+
+nav
+{
+  margin-top: 20px;
+
+}
+
+
+
+
+/* CLASS AND PROPERTY */
+
+
+  .navbar
+  {
+    margin:0;
+  }
+
+  .container
+  {
+    margin-top: 10px;
+    min-height: 100%;
+  }
+
+
+  .bg-navbar
+  {
+    background:rgba(0,0,0,.2);
+    color: white;
+  }
+
+  .navbar-toggler
+  {
+    background:white;
+  }
+
+  .content
+  {
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 400;
+
+  }
+
+  .content-workflow
+  {
+     color: white;
+     padding-left: 10px;
+     padding-bottom: 10px;
+  }
+
+  .uppercase
+  {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.1em;
+  }
+
+
+  .nav-item
+  {
+    margin-right: 10px;
+  }
+
+  .nav-link
+  {
+    text-transform: uppercase;
+    color:#0ffbff !important;
+    font-weight: bold;
+  }
+
+  .nav-link:hover
+  {
+    color: #09bec1 !important;
+  }
+
+  .btn
+  {
+    border-radius:10px;
+  }
+
+  .rounded-box
+  {
+    background: white;
+    border-radius: 5px;
+    margin-left: 50px;
+    padding: 5px;
+    color: lightslategray;
+    font-weight: 550;
+  }
+
+  .list-group
+  {
+    margin-left: 30px;
+    padding: 10px;
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  .list-group li
+  {
+    padding: 10px;
+    padding-right: 0;
+  }
+
+  .list-group a
+  {
+    font-size: normal !important;
+    color: lightslategray;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .list-group a:hover
+  {
+    text-decoration: underline;
+    color: darkslategray;
+  }
+
+  .page-footer
+  {
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #009688;
+    color: white;
+    font-weight: 550;
+  }
+
+  .list-group-footer li
+  {
+    padding-top:10px;
+  }
+
+  .list-group-footer a
+  {
+      text-decoration: underline;
+      color: #033836;
+  }
+
+  .list-group-footer a:hover
+  {
+    color: #00211f;
+  }
+
+  .footer-copyright a
+  {
+    text-decoration: none;
+    color: #9e0909;
+  }
+
+  .footer-copyright a:hover
+  {
+    text-decoration: underline;
+    color: #680202;
+  }
+
+
+
+/* LOGIN */
+
+.welcome-back 
+{
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3b656d;
+}
+
+.welcome-back em
+{
+  color: #1d7a8c;
+}
+
+/* CHANGE BORDER BUTTON FOR LOGIN PAGE */
+.card-header
+{
+  border-bottom: 1px solid #635223;
+}
+
+
+/* VALIDATION CLASS */
+.has-error
+{
+  border: 1px solid red;
+}
+
+.error-message, .error-message-dialog
+{
+  color: red;
+  font-size: 1em;
+  
+}
+
+.error-message-dialog
+{
+  
+  font-size: 1.5em;
+  margin-left: 10px;
+
+}
+
+/*  WISH LIST */
+
+#wish-list
+{
+  color: white;
+}
+
+#wish-list h1
+{
+  font-size: 3em;
+}
+
+
+#wish-list h2:last-of-type
+{
+  margin-bottom: 40px;
+}
+
+
+.row
+{
+  margin-bottom: 20px;
+}
+
+
+/* AUTORI */
+#authors
+{
+  color: white;
+}
+
+#authors h1, h2
+{
+  font-size: 3em;
+}
+
+.names
+{
+  margin-top: 20px;
+  overflow-x: auto;
+  border-radius: 10px ;
+
+}
+
+.names table
+{
+  margin: 0 auto;
+  border: 1px solid;
+
+}
+
+.names td, th
+{
+  padding: 20px;
+  border:1px solid;
+}
+
+.names tbody tr:hover
+{ 
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#681a10+0,a09b0e+36,01720c+51,14018e+100 */
+background: #681a10; /* Old browsers */
+background: -moz-linear-gradient(45deg, #681a10 0%, #a09b0e 36%, #01720c 51%, #14018e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #681a10 0%,#a09b0e 36%,#01720c 51%,#14018e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #681a10 0%,#a09b0e 36%,#01720c 51%,#14018e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+.names th
+{
+  background-color: #1723d1;
+  text-transform: capitalize;
+
+}
+
+.hard-level
+{
+  color: red;
+}
+
+.easy-level
+{
+  color: green;
+}
+/* Single page */
+
+.ds-tabs
+{
+  display: none;
+}
+
+.ds-tabs.active-tab
+{
+  display: block ;
+}
+
+.active-link{
+  display:block;
+}
+
+
+/* Font Awesome icons modified */
+
+.fa-user, .fa-key
+{
+  font-size: 32px; 
+  margin-bottom:10px;
+}
+
+.fa-exclamation-triangle
+{
+  color: red;
+}
+
+.rounded-box
+{
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.list-style-none li
+{
+  list-style: none;
+}
+
+@media (min-width:568px)
+{
+  header h1, h2{
+    text-align:center;
+    font-size: 3em;
+  }
+
+  .list-style-none li
+  {
+    list-style: disc;
+  }
+
+}
+
+

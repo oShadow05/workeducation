@@ -1,0 +1,435 @@
+@font-face {
+  font-family: 'damionregular';
+ src: url('./font/damion-webfont.woff2') format('woff2'), 
+  url('./font/damion-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+
+
+
+@font-face {
+  font-family: 'robotoregular';
+src: url('./font/roboto-regular-webfont.woff2') format('woff2'),      
+url('./font/roboto-regular-wefont.woff') format('woff');
+  font-weight: 100;  
+  font-style: normal;
+  font-display: auto;
+}
+/* TAGS PROPERTY */
+
+html, body
+{
+font-family: "robotoregular";
+min-height: 100%;
+line-height: 1.5em;
+font-size: 1.1em;
+}
+
+body
+{
+background: #537895; /* Old browsers */
+background: -moz-linear-gradient(top, #537895 0%, #09203f 100%); 
+background: -webkit-linear-gradient(top, #537895 0%,#09203f 100%); 
+background: linear-gradient(to bottom, #537895 0%,#09203f 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#537895', endColorstr='#09203f',GradientType=0 );
+}
+
+
+
+header h1, h2{
+font-size: 2.3em !important;
+font-family: "damionregular";
+font-style:cursive;
+
+}
+
+
+
+
+nav
+{
+margin-top: 20px;
+
+}
+
+
+
+
+
+/* CLASS AND PROPERTY */
+
+
+.navbar
+{
+  margin:0;
+  font-family: "damionregular", cursive;
+}
+
+.h
+{
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+.container
+{
+  margin-top: 10px;
+  min-height: 100%;
+}
+
+
+.bg-navbar
+{
+  background:rgba(0,0,0,.2);
+  color: white;
+}
+
+.navbar-toggler
+{
+  background:white;
+}
+
+.content
+{
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-weight: 400;
+
+}
+
+.content-workflow
+{
+   color: white;
+   padding-left: 10px;
+   padding-bottom: 10px;
+}
+
+.uppercase
+{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+
+.nav-item
+{
+  margin-right: 10px;
+}
+.fa-building
+{
+	font-size:48px;
+	transition:.5s;
+	cursor:pointer;
+}
+.fa-building:hover
+{
+	color:black;
+}
+.building
+{
+	border-top: 1px solid gray;
+}
+
+
+.nav-link
+{
+  text-transform: uppercase;
+  color:#0ffbff !important;
+  font-weight: bold;
+}
+
+.nav-link:hover
+{
+  color: #09bec1 !important;
+}
+
+.btn
+{
+  border-radius:10px;
+}
+
+.rounded-box
+{
+  background: white;
+  border-radius: 5px;
+  margin-left: 50px;
+  padding: 5px;
+  color: lightslategray;
+  font-weight: 550;
+}
+
+.list-group
+{
+  margin-left: 30px;
+  padding: 10px;
+  padding-top: 0;
+  padding-right: 0;
+}
+
+.list-group li
+{
+  padding: 10px;
+  padding-right: 0;
+}
+
+.list-group a
+{
+  font-size: normal !important;
+  color: lightslategray;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.list-group a:hover
+{
+  text-decoration: underline;
+  color: darkslategray;
+}
+
+.page-footer
+{
+  margin-top: 20px;
+  border-radius: 5px;
+  background: #009688;
+  color: white;
+  font-weight: 550;
+}
+
+.list-group-footer li
+{
+  padding-top:10px;
+}
+
+.list-group-footer a
+{
+    text-decoration: underline;
+    color: #033836;
+}
+
+.list-group-footer a:hover
+{
+  color: #00211f;
+}
+
+.footer-copyright a
+{
+  text-decoration: none;
+  color: #9e0909;
+}
+
+.footer-copyright a:hover
+{
+  text-decoration: underline;
+  color: #680202;
+}
+
+
+
+/* LOGIN */
+
+.welcome-back 
+{
+margin-top: 10px;
+color: #3b656d;
+font-family: "damionregular", cursive;
+font-size: 1.3em;
+}
+
+.welcome-back em
+{
+color: #1d7a8c;
+}
+
+
+
+/* CHANGE BORDER BUTTON FOR LOGIN PAGE */
+.card-header
+{
+border-bottom: 1px solid #635223;
+}
+
+
+/* VALIDATION CLASS */
+.has-error
+{
+border: 1px solid red;
+}
+
+.error-message, .error-message-dialog
+{
+color: red;
+font-size: 1em;
+
+}
+
+.error-message-dialog
+{
+
+font-size: 1.5em;
+margin-left: 10px;
+
+}
+
+/*  WISH LIST */
+
+#wish-list
+{
+color: white;
+}
+
+#wish-list h1
+{
+font-size: 3em;
+}
+
+
+#wish-list h2:last-of-type
+{
+margin-bottom: 40px;
+}
+
+#wish-list h1, h2, h3
+{
+font-family: "damionregular", cursive;
+}
+
+.hard-level
+{
+color: #660404;
+}
+
+.easy-level
+{
+color: #1aad06;
+}
+
+
+.row
+{
+margin-bottom: 20px;
+}
+
+
+/* AUTHORS */
+
+#authors
+{
+color: white;
+}
+
+#authors h1, h2
+{
+font-size: 3em;
+}
+
+#authors h1, h2, h3
+{
+font-family: "damionregular", cursive;
+}
+
+
+
+
+.names
+{
+margin-top: 20px;
+overflow-x: auto;
+border-radius: 10px ;
+
+}
+
+.names table
+{
+margin: 0 auto;
+border: 1px solid;
+
+}
+
+.names td, th
+{
+padding: 20px;
+border:1px solid;
+}
+
+.names tbody tr:hover
+{   
+background: #681a10; 
+background: -moz-linear-gradient(45deg, #681a10 0%, #525e0e 36%, #01720c 51%, #14018e 100%); 
+background: -webkit-linear-gradient(45deg, #681a10 0%,#525e0e 36%,#01720c 51%,#14018e 100%); 
+background: linear-gradient(45deg, #681a10 0%,#525e0e 36%,#01720c 51%,#14018e 100%); 
+
+}
+
+.names th
+{
+background-color: #1723d1;
+text-transform: capitalize;
+
+}
+
+
+/* Single page */
+
+.ds-tabs
+{
+display: none;
+}
+
+.ds-tabs.active-tab
+{
+display: block ;
+}
+
+.active-link{
+display:block;
+}
+
+
+/* Font Awesome icons modified */
+
+.fa-user, .fa-key
+{
+font-size: 32px; 
+margin-bottom:10px;
+}
+
+.fa-exclamation-triangle
+{
+color: red;
+}
+
+.rounded-box
+{
+margin-left: 5px;
+margin-right: 15px;
+}
+
+.list-style-none li
+{
+list-style: none;
+}
+
+@media (min-width:568px)
+{
+header h1, h2{
+  text-align:center;
+  font-size: 3em !important;
+}
+
+.list-style-none li
+{
+  list-style: disc;
+}
+
+#login
+{
+  margin-top: 10% !important;
+  width: 70%;
+}
+
+}
+
+
